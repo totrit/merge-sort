@@ -1,0 +1,5 @@
+PROJECT (merge-sort)
+SET(SRC_LIST src/merge-sort.cpp)
+MESSAGE(STATUS "This is BINARY dir " ${HELLO_BINARY_DIR})
+MESSAGE(STATUS "This is SOURCE dir "${HELLO_SOURCE_DIR})
+ADD_EXECUTABLE(merge-sort ${SRC_LIST})

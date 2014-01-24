@@ -1,0 +1,22 @@
+Input: Two int array with ascend order
+Output: One int array that contains the two input arrays, and still with ascend order
+
+funciton merge_sort(array1, len1, array2, len2)
+    array_ret = new int[len1 + len2]
+    cursor1 = 0
+    cursor2 = 0
+    for cursor1 < len1 and cursor2 < len2 do
+        if array1[cursor1] > array2[cursor2] then
+            array_ret[cursor1 + cursor2] = array2[cursor2]
+            cursor2 ++
+        else
+            array_ret[cursor1 + cursor2] = array1[cursor1]
+            cursor1 ++
+        end
+    end
+    if cursor1 < len1 then
+        array_copy from array1 to endof array_ret //offset=cursor1, length=(len1 - cursor1)
+    elif cursor2 < len2
+        array_copy from array2 to endof array_ret //offset=cursor2, length=(len2 - cursor2)
+    end
+end of function
