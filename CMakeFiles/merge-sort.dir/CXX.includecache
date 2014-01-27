@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/totrit/work/workspace/merge-sort/src/merge-sort.cpp
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+algorithm
+-
+iostream
+-
+vector
+-
+

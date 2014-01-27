@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/merge-sort.dir/src/merge-sort.cpp.o  -o merge-sort -rdynamic 
